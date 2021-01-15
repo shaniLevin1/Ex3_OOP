@@ -37,7 +37,7 @@ Saves the graph in JSON format to a file
 #### load_from_json->
 Loads a graph from a json file.
 
-### plot_graph->
+#### plot_graph->
 In this function we use matplotlib in order to draw the graph according the positions of the nodes, and the edges we draw as arrows from src to dest of the edge.
 If there is a a node with no position there is an algorithm that define new random position according the range of the max and min positions in the graph.
 
