@@ -1,11 +1,9 @@
 In this project we implemented weighted directed graph.
- when vertex implemented by class called NodeData, which implements the properties and saves the information: each node has:
+when vertex implemented by class called NodeData, which implements the properties and saves the information: each node has:
 dictionary (behaves similar to HashMap) of all the connected nodes that going out and coming in to the specific node,
- tag,
- key (specific id),
- and location.
+tag, key (specific id) and location.
 Each node's location is defined class Position.
- the location is defined by x, y, and z values.
+the location is defined by x, y, and z values.
 Weighted Directed Graph is implemented by class DiGraph.
 each graph has dictionary of all the nodes, and extends NodeData class- so each graph has also all the information about the edges in the graph, and supports adding node to the graph, removing node from the graph, ,adding edge, and removing edge as well.
 class GraphAlgo implements the algorithms and operations on weighted directed graph.
@@ -15,3 +13,4 @@ connected_components(key)->Finds the Strongly Connected Component(SCC) that the 
 save_to_json->Saves the graph in JSON format to a file
 load_from_json->Loads a graph from a json file.
 
+In order to implement the SCC (Strongly Connected Component) 
