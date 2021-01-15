@@ -1,4 +1,4 @@
-#In this project we implemented weighted directed graph.
+##In this project we implemented weighted directed graph.
 
 when vertex implemented by class called NodeData, which implements the properties and saves the information: each node has:
 dictionary (behaves similar to HashMap) of all the connected nodes that going out and coming in to the specific node,
